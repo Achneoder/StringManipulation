@@ -279,7 +279,7 @@ public class StringUtil {
 			}
 		}
 
-		return sb.toString();
+		return sb.toString().toUpperCase().replace("\\U", "\\u");
 	}
 
 
